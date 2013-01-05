@@ -7,7 +7,7 @@ Quieres agregar un ejemplo. Es súper simple.
 2. ``pip install -r requirements.txt``
 3. Editar ``tutorial.md``.
 
-Agregar tu texto como Add Markdown.
+Agregar tu texto como Markdown.
 
 Agregar tu código como Cog:
 
