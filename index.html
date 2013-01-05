@@ -35,39 +35,39 @@
     <header>
         <h1><span class="green">gevent</span> For the Working Python Developer</h1>
         <h3 class="author">
-            Written by the Gevent Community
+            Escrito por la Comunidad Gevent
         </h3>
 
         <blockquote>
-        gevent is a concurrency library based around <a href="http://software.schmorp.de/pkg/libev.html">libev</a>.  It provides a clean API for a variety of concurrency and network related tasks.
+        gevent es una libraría concurrente basada en <a href="http://software.schmorp.de/pkg/libev.html">libev</a>.  Provee una API limpia para una variedad de tareas de concurrencia y red.
         </blockquote>
     </header>
 
     <div class="toc">
 <ul>
-<li><a href="#introduction">Introduction</a><ul>
-<li><a href="#contributors">Contributors</a></li>
+<li><a href="#introduction">Introducción</a><ul>
+<li><a href="#contributors">Contribuidores</a></li>
 </ul>
 </li>
 <li><a href="#core">Core</a><ul>
 <li><a href="#greenlets">Greenlets</a></li>
-<li><a href="#synchronous-asynchronous-execution">Synchronous &amp; Asynchronous Execution</a></li>
-<li><a href="#determinism">Determinism</a></li>
+<li><a href="#synchronous-asynchronous-execution">Ejecución Sincrona &amp; Asincrona.</a></li>
+<li><a href="#determinism">Determinism<o/a></li>
 <li><a href="#spawning-greenlets">Spawning Greenlets</a></li>
-<li><a href="#greenlet-state">Greenlet State</a></li>
-<li><a href="#program-shutdown">Program Shutdown</a></li>
-<li><a href="#timeouts">Timeouts</a></li>
+<li><a href="#greenlet-state">Estado de Greenlet</a></li>
+<li><a href="#program-shutdown">Programa de Cierre</a></li>
+<li><a href="#timeouts">Tiempos de Espera</a></li>
 <li><a href="#monkeypatching">Monkeypatching</a></li>
 </ul>
 </li>
-<li><a href="#data-structures">Data Structures</a><ul>
-<li><a href="#events">Events</a></li>
-<li><a href="#queues">Queues</a></li>
-<li><a href="#groups-and-pools">Groups and Pools</a></li>
-<li><a href="#locks-and-semaphores">Locks and Semaphores</a></li>
-<li><a href="#thread-locals">Thread Locals</a></li>
-<li><a href="#subprocess">Subprocess</a></li>
-<li><a href="#actors">Actors</a></li>
+<li><a href="#data-structures">Estructura de Datos</a><ul>
+<li><a href="#events">Eventos</a></li>
+<li><a href="#queues">Colas</a></li>
+<li><a href="#groups-and-pools">Grupos y Pools</a></li>
+<li><a href="#locks-and-semaphores">Bloqueos y Semáforos</a></li>
+<li><a href="#thread-locals">Hilos Locales</a></li>
+<li><a href="#subprocess">Subprocesos</a></li>
+<li><a href="#actors">Actores</a></li>
 </ul>
 </li>
 <li><a href="#real-world-applications">Real World Applications</a><ul>
