@@ -1,15 +1,15 @@
 Online Version: http://sdiehl.github.com/gevent-tutorial/
 =========================================================
 
-Want to add an example. Its uber simple.
+Quieres agregar un ejemplo. Es súper simple.
 
-1. Fork the repo.
+1. Fork el repo.
 2. ``pip install -r requirements.txt``
-3. Edit ``tutorial.md``.
+3. Editar ``tutorial.md``.
 
-Add your text as Markdown.
+Agregar tu texto como Add Markdown.
 
-Add your code as Cog:
+Agregar tu código como Cog:
 
      [[[cog
 
@@ -21,7 +21,7 @@ Add your code as Cog:
      [[[end]]]
 
 
-Will output this as html:
+Tendrás este output como html:
 
     <pre>
     <code class="python">
@@ -43,11 +43,11 @@ Will output this as html:
     </code>
     </pre>
 
-4. Run ``./build``
-5. Issue pull request.
-6. Get good gevent karma.
+4. Ejecutar ``./build``
+5. Solicitar pull request.
+6. Obtener un buen karma gevent.
 
-Released under MIT License.
+Liberado bajo Licencia MIT.
 
     Copyright (c) 2011 Stephen Diehl, <stephen.m.diehl@gmail.com>
 
