@@ -1,5 +1,5 @@
-Online Version: http://sdiehl.github.com/gevent-tutorial/
-=========================================================
+Versión en línea: http://ovnicraft.github.com/gevent/
+=====================================================
 
 Quieres agregar un ejemplo. Es súper simple.
 
